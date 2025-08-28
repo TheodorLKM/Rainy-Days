@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Checkout-RainyDays</title>
+        <meta name="viewpoint" content="width-device-width, initial-scale=1">
+        <link rel="stylesheet" href="RainyDays.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container nav">
+                <a href="index.html"><img src="RainyDaysImage/RainyDays_Logo.png" alt="RainyDays" class="logo"></a>
+                <nav style="margin-left:auto">
+                    <a href="Main.Html">Home</a>
+                    <a href="Products.html">Products</a>
+                    <a href="Cart.html">Cart</a>
+                </nav>
+                </div>
+            </header>
+
+            <main class="container section">
+                <h1 style="margin-bottom:1rem">Checkout</h1>
+                <div class="grid" style="grid-template-columns: 2fr 1fr; gap: 1.25rem;">
+                 <form class="card">
+                    <div class="pad">
+                        <h3>Contact & Shipping</h3>
+                        <label>First name<input class="input" placeholder="Jane"></label>
+                        <label>Last name<input class="input" placeholder="Doe"></label>
+                        <label>Email<input class="input" type="email" placeholder="jane@example.com"></label>
+                        <label>Address<input class="input" placeholder="123 Trail Rd"></label>
+                        <label>City <input class="input" placeholder="Raintown"></label>
+                        <label>Country <input class="input" placeholder="USA"></label>
+                        <label>ZIP <input class="input" placeholder="12345"></label>
+
+                        <h3 style="margin-top:1rem">payment (demo)</h3>
+                        <label>Name on card <input class="input" placeholder="Jane Doe"></label>
+                        <label>Card number <input class="input" placeholder="1234 5678 9012 3456"></label>
+                        <div class="grid" style="grid-template-columns:1fr 1fr; gap:.75rem">
+                            <label>Expiry<input class="input" placeholder="MM/YY"></label>
+                            <label>CVC<input class="input" placeholder="123"></label>
+                    </div>
+                    
+                    <p style="color:#6b7280;margin-top:.5rem">This is a school project. No real payments are made/and or processed.</p>
+                    <div style="margin-top:1rem;display:felx;gap:.5rem">
+                        <a class="btn" href="cart.html">Back to cart</a>
+                        <a class="btn primary" href="confirmation.html">Place order</a>
+                    </div>
+                    </div>
+                 </form> 
+                 
+                 <aside class="card">
+                    <div class="pad">
+                        <h3>Order summary</h3>
+                        <div style="display:flex;gap:.6rem;align-items:center;margin:.6rem 0">
+                            <img src="RainyDaysImage/RainyDays_Jacket1.png" alt="Arctic Rescue parka" style="width:56px;height:56px;border-radius:.5rem;border:1px solid #e5e7eb;object-fit:cover">
+                            <div style="flex:1"> Arctic Rescue Parka<br><span style="color:#6b7280;font-size:.9rem">Qty 1</span></div>
+                            <div class="price">$289</div>
+                        </div>
+                    </div>
+                 </aside>
+                </div>
+            </main>
+
+          <footer>
+            <div class="container">
+                <div style="font-weight:700">RainyDays</div>
+                <div>Pushing the comfort zone - demo project (no real payments)</div>
+            </div>
+        </footer>   
+    </body>
+</html>
